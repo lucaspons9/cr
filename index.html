@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <script src="https://use.fontawesome.com/9ff0ad3ed9.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/ css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta charset="utf-8">
+    <title>CrosMas</title>
+</head>
+
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><h1>Cros<span>Mas</span></h1> </a>
+        <div class="nav-text" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="nav-item"><a href="./index.html">inicio</a></li>
+                <li class="nav-item"><a href="./contacto.html">reserva</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="head-section">
+        <div class="wrapper">
+            <div class="typing-demo">
+                Arroces que enamoran.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE NOSOTROS -->
+<section>
+    <div class="ab-us">
+        <h1>Sobre nosotros</h1>
+        <div class="ab-us-comment">
+            <p><cite>"En el corazón del Eixample Barcelonés, nuestro moderno restaurante ofrece una variada carta mediterránea y saludable, con opciones vegetarianas e intolerancias alimentarias, que incluye deliciosas paellas y tapas."</cite></p>
+        </div>
+    </div>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="calls">
+    <div class="call-to">
+    <div class="ep-text">
+        <h1>Gastronomía creativa saludable</h1>
+    </div>
+    <div class="ep">
+        <div class="ep-col">
+            <div class="col-text">
+                <h1>Especialidades</h1>
+                <p>Somos especialistas en en Paellas, Marisco, Pescado, Carne, y Tapas! </p>
+            </div>
+        </div>
+        <div class="ep-col">
+            <div class="col-text">
+                <h1>Haz tu reserva ya!</h1>
+                <p>Elije el día y hora de la semana que quieras hacer la reserva. ¡Es muy facil! Reserva <span class="tienda-online"><a href="contacto.html">aquí</a> </span></p>
+            </div>
+        </div>
+        <div class="ep-col">
+            <div class="col-text">
+                <h1>Menú diario</h1>
+                <p>El menú del mediodía ofrece un interesante abanico de opciones diarias. Mira el menu de  <span class="tienda-online"><a href="contacto.html">hoy</a> </span></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Nuestro servicio -->
+
+<section>
+    <div class="ab-us">
+        <h1>¿Qué ofrecemos?</h1>
+        <div class="ab-us-comment">
+            <p><cite>"Saboree la excelencia culinaria en Crosmas Casanova con nuestro  staff compuesto por expertos profesionales, amables y serviciales, que les atenderán de lunes a sábado en el desayuno, aperitivo, brunch, comida y cena."</cite></p>
+        </div>
+    </div>
+</section>
+
+<!-- Mapa -->
+
+<section class="map">
+<div class="map-container">
+    <div class="text-map">
+        <h1>¿Dónde estamos?</h1>
+    </div>
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8694.248619985214!2d2.148986327244131!3d41.38968849105282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2853fc92045%3A0xa98f58bdad4380b3!2sCarrer%20de%20Casanova%2C%20158%2C%2008036%20Barcelona!5e0!3m2!1sen!2ses!4v1659697827973!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+</section>
+
+<!-- ABOUT US -->
+<section class="about">
+    <div class="logos">
+        <a href="https://www.instagram.com/crosmaslounge/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-google"></i></a>
+    </div>
+</section>
+<!-- JS -->
+<script>
+    var navLinks = document.getElementById("nav-links");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
